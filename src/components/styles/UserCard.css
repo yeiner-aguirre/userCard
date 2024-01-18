@@ -1,0 +1,70 @@
+.user-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #0a4b76;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .information {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .information li {
+    margin-bottom: 10px;
+  }
+  
+  .color-email {
+    color: #347bab;
+  }
+  
+  .color-birthday {
+    color: #347bab;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .delete {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .edit{
+    background-color: #347bab;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete:hover {
+    background-color: #c0392b;
+  }
+  .edit:hover{
+    background-color: #0a4b76;
+  }
