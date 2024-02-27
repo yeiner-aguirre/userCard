@@ -20,10 +20,10 @@ const FormUser = ({ createUser, userUpdate, updateUser, setUserUpdate, setIsForm
             createUser(data)
         }       
         reset({
-            email: " ",
-            password: " ",
             first_name: " ",
             last_name: " ",
+            email: " ",
+            password: " ",
             birthday: " "
         })
         setIsFormClose(true)
@@ -32,10 +32,10 @@ const FormUser = ({ createUser, userUpdate, updateUser, setUserUpdate, setIsForm
     const handleClose = () => {
         setIsFormClose(true)
         reset({
-            email: " ",
-            password: " ",
             first_name: " ",
             last_name: " ",
+            email: " ",
+            password: " ",
             birthday: " "
         })
         setUserUpdate()
@@ -63,7 +63,7 @@ const FormUser = ({ createUser, userUpdate, updateUser, setUserUpdate, setIsForm
             </label>
             <label className="form_label" >
                 <span className="form_field_name">Birthday</span>
-                <input className="form_field" {...register("birthday")} type="date" />
+                <input className="form_field" {...register("birthday")} type="text" />
             </label>
             <button className="form_btn">{ userUpdate ? "Update" : "Add" }</button>
          </form>
